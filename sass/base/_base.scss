@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing: inherit;
+  /*it would inherit whatever we put in box-sizing of body */
+
+}
+
+html{
+  //this defines what 1rem is
+  font-size: 62.5% /*strategy for rem, set up,
+  10 divided in 16 is the percentage,
+  allows zoom in on the page automatcally*/
+}
+
+body{
+  box-sizing: border-box;
+}
+
+/*https://codepen.io/anon/pen/JMgLMO?editors=1100
